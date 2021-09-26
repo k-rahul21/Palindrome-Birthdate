@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+:root {
+  --green-color: #8ee4af;
+  --dark-color: #05386b;
+  --light-color: #edf5e1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark-color);
+  background-color: var(--light-color);
+}
+
+#container {
+  margin: 10rem auto;
+  max-width: 50vw;
+  border: 3px solid var(--green-color);
+}
+
+@media screen and (max-width: 600px) {
+  #container {
+    margin: 3rem auto;
+  }
+}
+
+#heading {
+  color: var(--green-color);
+}
+
+#heading,
+#description,
+#check-button,
+#birthdate,
+#output-box {
+  margin: 1.5rem;
+}
+
+#birthdate,
+#check-button {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 600px) {
+  #birthdate,
+  #check-button {
+    margin: 1rem;
+  }
+}
+
+#birthdate {
+  background-color: var(--light-color);
+  border: 2px solid var(--green-color);
+}
+
+#check-button {
+  font-weight: bold;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border: 2px solid var(--green-color);
+}
+
+#check-button:hover {
+  background-color: var(--green-color);
+  border-color: var(--dark-color);
+  transform: scale(1.2);
+}
+
+a {
+  color: var(--dark-color);
+}
+
+footer {
+  margin-top: 13rem;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+}
