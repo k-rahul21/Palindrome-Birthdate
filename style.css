@@ -80,12 +80,12 @@ a {
 }
 
 footer {
-  margin-top: 11rem;
+  margin-top: 10rem;
 }
 
 @media screen and (max-width: 600px) {
   footer {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     margin-bottom: 1rem;
   }
 }
